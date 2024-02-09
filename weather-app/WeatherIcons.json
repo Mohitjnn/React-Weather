@@ -1,0 +1,243 @@
+[
+	{
+		"code" : 1000,
+		"day" : "src/weather-icons/64x64/day/113.png",
+		"night" : "src/weather-icons/64x64/night/113.png"
+	},
+	{
+		"code" : 1003,
+		"day" :"src/weather-icons/64x64/day/116.png",
+		"night" :"src/weather-icons/64x64/night/116.png"
+	},
+	{
+		"code" : 1006,
+		"day" :"src/weather-icons/64x64/day/119.png",
+		"night" : "src/weather-icons/64x64/night/119.png"
+	},
+	{
+		"code" : 1009,
+		"day" : "src/weather-icons/64x64/day/122.png",
+		"night" : "src/weather-icons/64x64/night/122.png" 
+	},
+	{
+		"code" : 1030,
+		"day" : "src/weather-icons/64x64/day/143.png",
+		"night" : "src/weather-icons/64x64/night/143.png"
+	},
+	{
+		"code" : 1063,
+		"day" : "src/weather-icons/64x64/day/176.png",
+		"night" : "src/weather-icons/64x64/night/176.png" 
+	},
+	{
+		"code" : 1066,
+		"day" : "src/weather-icons/64x64/day/179.png",
+		"night" : "src/weather-icons/64x64/night/179.png" 
+	},
+	{
+		"code" : 1069,
+		"day" : "src/weather-icons/64x64/day/182.png",
+		"night" : "src/weather-icons/64x64/night/182.png" 
+	},
+	{
+		"code" : 1072,
+		"day" : "src/weather-icons/64x64/day/185.png",
+		"night" : "src/weather-icons/64x64/night/185.png"
+	},
+	{
+		"code" : 1087,
+		"day" : "src/weather-icons/64x64/day/200.png",
+		"night" : "src/weather-icons/64x64/night/200.png"
+	},
+	{
+		"code" : 1114,
+		"day" : "src/weather-icons/64x64/day/227.png",
+		"night" : "src/weather-icons/64x64/night/227.png"
+	},
+	{
+		"code" : 1117,
+		"day" : "src/weather-icons/64x64/day/230.png",
+		"night" : "src/weather-icons/64x64/night/230.png"
+	},
+	{
+		"code" : 1135,
+		"day" : "src/weather-icons/64x64/day/248.png",
+		"night" : "src/weather-icons/64x64/night/248.png" 
+	},
+	{
+		"code" : 1147,
+		"day" : "src/weather-icons/64x64/day/260.png",
+		"night" : "src/weather-icons/64x64/night/260.png" 
+	},
+	{
+		"code" : 1150,
+		"day" : "src/weather-icons/64x64/day/263.png",
+		"night" : "src/weather-icons/64x64/night/263.png" 
+	},
+	{
+		"code" : 1153,
+		"day" : "src/weather-icons/64x64/day/266.png",
+		"night" : "src/weather-icons/64x64/night/266.png" 
+	},
+	{
+		"code" : 1168,
+		"day" : "src/weather-icons/64x64/day/281.png",
+		"night" : "src/weather-icons/64x64/night/281.png"
+	},
+	{
+		"code" : 1171,
+		"day" : "src/weather-icons/64x64/day/284.png",
+		"night" : "src/weather-icons/64x64/night/284.png"
+	},
+	{
+		"code" : 1180,
+		"day" : "src/weather-icons/64x64/day/293.png",
+		"night" : "src/weather-icons/64x64/night/293.png"		 
+	},
+	{
+		"code" : 1183,
+		"day" : "src/weather-icons/64x64/day/296.png",
+		"night" : "src/weather-icons/64x64/night/296.png" 
+	},
+	{
+		"code" : 1186,
+		"day" : "src/weather-icons/64x64/day/299.png",
+		"night" : "src/weather-icons/64x64/night/299.png"
+	},
+	{
+		"code" : 1189,
+		"day" : "src/weather-icons/64x64/day/302.png",
+		"night" : "src/weather-icons/64x64/night/302.png" 
+	},
+	{
+		"code" : 1192,
+		"day" : "src/weather-icons/64x64/day/305.png",
+		"night" : "src/weather-icons/64x64/night/305.png" 
+	},
+	{
+		"code" : 1195,
+		"day" : "src/weather-icons/64x64/day/308.png",
+		"night" : "src/weather-icons/64x64/night/308.png" 
+	},
+	{
+		"code" : 1198,
+		"day" : "src/weather-icons/64x64/day/311.png",
+		"night" : "src/weather-icons/64x64/night/311.png" 
+	},
+	{
+		"code" : 1201,
+		"day" : "src/weather-icons/64x64/day/314.png",
+		"night" : "src/weather-icons/64x64/night/314.png"	 
+	},
+	{
+		"code" : 1204,
+		"day" : "src/weather-icons/64x64/day/317.png",
+		"night" : "src/weather-icons/64x64/night/317.png" 
+	},
+	{
+		"code" : 1207,
+		"day" : "src/weather-icons/64x64/day/320.png",
+		"night" : "src/weather-icons/64x64/night/320.png"	 
+	},
+	{
+		"code" : 1210,
+		"day" : "src/weather-icons/64x64/day/323.png",
+		"night" : "src/weather-icons/64x64/night/323.png" 
+	},
+	{
+		"code" : 1213,
+		"day" : "src/weather-icons/64x64/day/326.png",
+		"night" : "src/weather-icons/64x64/night/326.png" 
+	},
+	{
+		"code" : 1216,
+		"day" : "src/weather-icons/64x64/day/329.png",
+		"night" : "src/weather-icons/64x64/night/329.png"
+	},
+	{
+		"code" : 1219,
+		"day" : "src/weather-icons/64x64/day/332.png",
+		"night" : "src/weather-icons/64x64/night/332.png" 
+	},
+	{
+		"code" : 1222,
+		"day" : "src/weather-icons/64x64/day/335.png",
+		"night" : "src/weather-icons/64x64/night/335.png" 
+	},
+	{
+		"code" : 1225,
+		"day" : "src/weather-icons/64x64/day/338.png",
+		"night" : "src/weather-icons/64x64/night/338.png" 
+	},
+	{
+		"code" : 1237,
+		"day" : "src/weather-icons/64x64/day/350.png",
+		"night" : "src/weather-icons/64x64/night/350.png" 
+	},
+	{
+		"code" : 1240,
+		"day" : "src/weather-icons/64x64/day/353.png",
+		"night" : "src/weather-icons/64x64/night/353.png" 
+	},
+	{
+		"code" : 1243,
+		"day" : "src/weather-icons/64x64/day/356.png",
+		"night" : "src/weather-icons/64x64/night/356.png" 
+	},
+	{
+		"code" : 1246,
+		"day" : "src/weather-icons/64x64/day/359.png",
+		"night" : "src/weather-icons/64x64/night/359.png"
+		
+		},
+	{
+		"code" : 1249,
+		"day" : "src/weather-icons/64x64/day/362.png",
+		"night" : "src/weather-icons/64x64/night/362.png" 
+	},
+	{
+		"code" : 1252,
+		"day" : "src/weather-icons/64x64/day/365.png",
+		"night" : "src/weather-icons/64x64/night/365.png" 
+	},
+	{
+		"code" : 1255,
+		"day" : "src/weather-icons/64x64/day/368.png",
+		"night" : "src/weather-icons/64x64/night/368.png" 
+	},
+	{
+		"code" : 1258,
+		"day" : "src/weather-icons/64x64/day/371.png",
+		"night" : "src/weather-icons/64x64/night/371.png" 
+	},
+	{
+		"code" : 1261,
+		"day" : "src/weather-icons/64x64/day/374.png",
+		"night" : "src/weather-icons/64x64/night/374.png" 
+	},
+	{
+		"code" : 1264,
+		"day" : "src/weather-icons/64x64/day/377.png",
+		"night" : "src/weather-icons/64x64/night/377.png" 
+	},
+	{
+		"code" : 1273,
+		"day" : "src/weather-icons/64x64/day/386.png",
+		"night" : "src/weather-icons/64x64/night/386.png"
+	},
+	{
+		"code" : 1276,
+		"day" : "src/weather-icons/64x64/day/389.png",
+		"night" : "src/weather-icons/64x64/night/389.png" 
+	},
+	{
+		"code" : 1279,
+		"day" : "src/weather-icons/64x64/day/392.png",
+		"night" : "src/weather-icons/64x64/night/392.png" 
+	},
+	{
+		"code" : 1282,
+		"day" : "src/weather-icons/64x64/day/395.png",
+		"night" : "src/weather-icons/64x64/night/395.png" 
+	}
+]

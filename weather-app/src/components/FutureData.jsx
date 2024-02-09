@@ -1,9 +1,9 @@
-import Weather from "./Icons";
+// import Weather from "./Icons";
 
 const FutureData = ({ data }) => {
   return (
     <div className=" flex flex-col mx-2 weatherCard justify-center p-3.5">
-      <Weather weather={data.weather}></Weather>
+      {/* <Weather weather={data.weather}></Weather> */}
       <h1 className="mt-4 font font-light text-4xl">
         <span>{data.mintemp}</span>/<span>{data.maxtemp}</span>
       </h1>

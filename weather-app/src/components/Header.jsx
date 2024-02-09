@@ -1,4 +1,4 @@
-const Header = () => {
+const Header = ({ info }) => {
   const handleChangeAndSize = (event) => {
     const target = event.target;
     target.style.width = "10px";
@@ -13,7 +13,7 @@ const Header = () => {
       </p>
       <input type="text" className="input" onChange={handleChangeAndSize} />
       <p className=" text-6xl font font-thin" style={{ color: "#b4b4b4" }}>
-        is windy
+        is {info.currentCondition}
       </p>
     </header>
   );
