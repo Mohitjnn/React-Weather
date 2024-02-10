@@ -5,37 +5,18 @@ import Temp from "./components/Temp";
 import Extra from "./components/Extra";
 import FutureData from "./components/FutureData";
 import { useEffect, useState } from "react";
-function App() {
-  let FutureWeatherData = [
-    {
-      weather: "sun-shower",
-      mintemp: "-20°",
-      maxtemp: "20°",
-      day: "Tom",
-    },
-    {
-      weather: "thunder-storm",
-      mintemp: "-10°",
-      maxtemp: "25°",
-      day: "Fri",
-    },
-    {
-      weather: "flurries",
-      mintemp: "-14°",
-      maxtemp: "33°",
-      day: "Sat",
-    },
-    {
-      weather: "sunny",
-      mintemp: "-30°",
-      maxtemp: "46°",
-      day: "Sun",
-    },
-  ];
+import dayjs from "dayjs";
 
+function App() {
   const [info, setInfo] = useState({});
   const [cityName, setCityName] = useState("Mumbai");
+  const [FutureWeatherData, setFutureWeatherData] = useState([]);
+
+  const FutureWeatherDataArray = [];
+
   let WeatherUrl = `http://api.weatherapi.com/v1/forecast.json?key=86558995328942b6a75203232240302&q=${cityName}&days=5&aqi=no&alerts=no`;
+
+  const tomorrow = dayjs().add(1, "day");
 
   useEffect(() => {
     fetch(WeatherUrl)
@@ -54,6 +35,18 @@ function App() {
             humidity: data.forecast.forecastday[0].day.avghumidity,
           };
         });
+
+        for (let index = 1; index < 5; index++) {
+          const item = data.forecast.forecastday[index];
+
+          const modifiedItem = {
+            ...item,
+            dayOfWeek: tomorrow.add(index - 1, "day").format("ddd"),
+          };
+
+          FutureWeatherDataArray.push(modifiedItem);
+        }
+        setFutureWeatherData(FutureWeatherDataArray);
       })
       .catch((error) => console.log("Error:" + error));
   }, [cityName]);
