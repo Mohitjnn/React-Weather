@@ -4,7 +4,7 @@ import "./App.css";
 import Temp from "./components/Temp";
 import Extra from "./components/Extra";
 import FutureData from "./components/FutureData";
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import dayjs from "dayjs";
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
 
   const tomorrow = dayjs().add(1, "day");
 
-  useEffect(() => {
+  useMemo(() => {
     fetch(WeatherUrl)
       .then((response) => response.json())
       .then((data) => {
