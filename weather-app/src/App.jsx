@@ -14,7 +14,7 @@ function App() {
 
   const FutureWeatherDataArray = [];
 
-  let WeatherUrl = `http://api.weatherapi.com/v1/forecast.json?key=86558995328942b6a75203232240302&q=${cityName}&days=5&aqi=no&alerts=no`;
+  let WeatherUrl = `http://api.weatherapi.com/v1/forecast.json?key=86558995328942b6a75203232240302&q=${cityName}&days=3&aqi=no&alerts=no`;
 
   const tomorrow = dayjs().add(1, "day");
 
@@ -22,6 +22,8 @@ function App() {
     fetch(WeatherUrl)
       .then((response) => response.json())
       .then((data) => {
+        console.log(data);
+
         setInfo(() => {
           return {
             currentTemp: data.current.temp_c,
@@ -36,7 +38,7 @@ function App() {
           };
         });
 
-        for (let index = 1; index < 5; index++) {
+        for (let index = 1; index < 3; index++) {
           const item = data.forecast.forecastday[index];
 
           const modifiedItem = {
